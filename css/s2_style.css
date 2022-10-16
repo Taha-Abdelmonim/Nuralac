@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  -webkit-touch-callout: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+tr,
+td,
+th,
+em,
+strong,
+pre,
+code,
+form,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  width: 1024px;
+  height: 768px;
+  position: relative;
+  margin: 0 auto;
+  background: #4f4e4c;
+  overflow: hidden;
+  padding: 0;
+  transform-origin: top left;
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  margin: 0;
+}
+
+#Main_Container {
+  width: 1024px;
+  height: 768px;
+  overflow: hidden;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-image: url(../images/s2/bg.jpg);
+  background-repeat: no-repeat;
+}
+
+/* Main Slide  */
+
+/* tabs */
+
+#home {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 222px;
+  width: 52px;
+  height: 58px;
+}
+
+#div1 {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 282px;
+  width: 82px;
+  height: 58px;
+}
+
+#div2 {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 377px;
+  width: 82px;
+  height: 58px;
+}
+
+#div3 {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 471px;
+  width: 82px;
+  height: 58px;
+}
+
+#div4 {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 564px;
+  width: 82px;
+  height: 58px;
+}
+
+#div5 {
+  position: absolute;
+  display: block;
+  top: 708px;
+  left: 656px;
+  width: 82px;
+  height: 58px;
+}
+/* end of tabs */
+
+#img1 {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  height: 36px;
+  max-width: 746px;
+  background: url(../images/s2/img1.png);
+  background-repeat: no-repeat;
+}
+
+#img2 {
+  position: absolute;
+  top: 67px;
+  left: 20px;
+  height: 32px;
+  max-width: 746px;
+  background: url(../images/s2/img2.png);
+  background-repeat: no-repeat;
+}
+
+#img3 {
+  position: absolute;
+  top: 195px;
+  left: 25px;
+}
+
+#img5 {
+  position: absolute;
+  top: 419px;
+  left: 25px;
+}
+
+#img7 {
+  position: absolute;
+  top: 125px;
+  left: 402px;
+}
+
+#img8 {
+  position: absolute;
+  top: 179px;
+  left: 434px;
+  width: 54%;
+}
+
+#mask {
+  position: absolute;
+  left: 497px;
+  top: 192px;
+  height: 275px;
+  width: 469px;
+  overflow: hidden;
+}
+#img9 {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+#my-circle3 canvas,
+#my-circle2 canvas,
+#my-circle1 canvas {
+  width: 100%;
+}
+#ascrail2000-hr {
+  display: none;
+}
+.img-top-slide-2 {
+  display: block;
+  width: 500px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+}
+.text-gol-sec-2 {
+  height: 33px !important;
+}
+.my-analysis-circle {
+  /* margin-top: 50px; */
+}
+.con-main {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#my-img2 {
+  width: 56%;
+  text-align: center;
+}
+.con2 {
+  margin-top: 43px;
+}
+
+.con-main > div {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.con-main > div > div:nth-of-type(2) {
+  color: #333686;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 15px;
+  max-width: 100% !important;
+}
+.con-main img {
+  width: 150px;
+  height: 200px;
+}
+.text-tow {
+  top: 220px !important;
+}
+@media (max-width: 992px) {
+  .container-content {
+    margin-top: 20px !important;
+  }
+  .img-top-slide-2 {
+    width: 300px !important;
+    height: auto !important;
+  }
+  .con-main {
+    flex-direction: column;
+  }
+  .con-main > div {
+    flex-direction: row;
+    width: 100%;
+  }
+  .con2,
+  .con3 {
+    margin-top: 0px;
+  }
+  #my-img2 {
+    text-align: start;
+  }
+  .con-main > div > div:nth-of-type(2) {
+    width: 47% !important;
+  }
+  .con-main img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .text-tow {
+    height: 37px;
+  }
+}

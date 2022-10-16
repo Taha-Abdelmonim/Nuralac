@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nuralac_Detailer_First_Release</title>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="css animation, animation, css3, webkit, mozilla, w3c, dan eden, @_dte, animated, animate.css, dan eden"
+    />
+    <meta name="viewport" content="initial-scale = 1.0, user-scalable = yes, maximum-scale = 2.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Css files -->
+    <link rel="stylesheet" href="css/s2_style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- JS files -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/s2_links.js"></script>
+    <script type="text/javascript" src="js/insert.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.queryloader2.min.js" type="text/javascript"></script>
+    <script src="js/circle-progress.js"></script>
+    <!--------- animate circle ------------------------->
+    <script type="text/javascript" src="js/swip/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/swip/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="js/swip/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="js/fit.js"></script>
+
+    <script type="text/javascript" id="customs-js">
+      $(document).ready(function () {
+        $("#my-text-global").insert("drawLineHeight", "0", "2");
+        $("#img-top-slide-2").insert("fadeIn", "1", "1");
+        $("#text-tow").insert("drawLine", "2", "2");
+        $("#con1").insert("fadeIn", "3", "1");
+        $("#con2").insert("fadeIn", "4", "1");
+        $("#con3").insert("fadeIn", "5", "1");
+
+        /* var delay = setTimeout(function () {
+          $("#my-circle3").circleProgress({
+            value: 1,
+            size: 191,
+            startAngle: 30,
+            thickness: 94.5,
+            reverse: false,
+            emptyFill: "rgba(0, 0, 0, 0)",
+            fill: {
+              image: "images/s2/image-4.png",
+            },
+          });
+        }, 12000); */
+      });
+    </script>
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <div id="Main_Container" class="page2">
+      <!-- main slide -->
+      <div class="back-header">
+        <div
+          id="my-text-global"
+          class="my-text-global"
+          data-text="The addition of prebiotics in infant formula alters the GI microbiota resembling that of breastfed infants<sup>1</sup>"
+        >
+          The addition of prebiotics in infant formula alters the GI microbiota <br />
+          resembling that of breastfed infants<sup>1</sup>
+        </div>
+      </div>
+      <!-- tabs -->
+      <div class="no-links">
+        <a href="index.html"> <div id="home"></div></a>
+        <a href="slide2.html"> <div id="div1"></div></a>
+        <a href="slide5.html"> <div id="div2"></div></a>
+        <a href="slide8.html"> <div id="div3"></div></a>
+        <a href="slide11.html"> <div id="div4"></div></a>
+        <a href="slide12.html"> <div id="div5"></div></a>
+      </div>
+      <div class="container-content">
+        <!-- end of tabs -->
+        <img src="images/s2/image-1.png" alt="" class="img-top-slide-2" id="img-top-slide-2" />
+        <p class="text-tow" id="text-tow" data-text="Prebiotics “GOS” supplemented formula <br /> shows a spectrum of benefits:">
+          Prebiotics “GOS” supplemented formula shows a spectrum of benefits:
+        </p>
+        <div class="my-analysis-circle" id="my-analysis-circle">
+          <div class="con-main">
+            <div class="con1" id="con1">
+              <div>
+                <img src="images/s2/image-2.png" alt="" />
+              </div>
+              <div id="my-img1">Better stool consistency.<sup>1,3</sup></div>
+            </div>
+            <div class="con2" id="con2">
+              <div>
+                <img src="images/s2/image-3.png" alt="" />
+              </div>
+              <div id="my-img2">
+                Higher concentration of bifidobacteria compared to infants on a non-supplemented standard formula.<sup>1</sup>
+              </div>
+            </div>
+            <div class="con3" id="con3">
+              <div>
+                <img src="images/s2/image-4.png" alt="" />
+              </div>
+              <div id="my-img3">Lower risk rates of colic and regurgitation.<sup>3</sup></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-footer" id="text-footer">
+        <div style="margin-bottom: 10px">GI: Gastrointestinal; GOS: Galacto-oligosaccharides. <br /></div>
+        1. Vandenplas Y, De Greef E, Veereman G. Prebiotics in infant formula. <i> Gut Microbes</i>. 2014;5(6):681-687.<br />
+        2. Davani-Davari D, Negahdaripour M, Karimzadeh I, et al. Prebiotics: Definition, Types, Sources, Mechanisms, and Clinical
+        Applications.<i> Foods </i>. 2019;8(3):92.<br />
+        3. Giovannini M, Verduci E, Gregori D, et al. Prebiotic Effect of an Infant Formula Supplemented with
+        Galacto-Oligosaccharides: Randomized Multicenter Trial. <i> J Am Coll Nutr</i>. 2014;33(5):385-93.
+      </div>
+
+      <footer class="footer">
+        <div class="icon-logo">
+          <div class="logo">
+            <img id="img-logo1" class="img-logo1" src="images/s1/img1.png" />
+            <img id="img-logo2" class="img-logo2" src="images/s1/img2.png" />
+            <div id="img-logo3" class="img-logo3"></div>
+            <img id="img-logo4" class="img-logo4" src="images/s1/img4.png" />
+          </div>
+          <div class="main-icon"><img src="./images/s1/img6.png" alt="" /></div>
+        </div>
+        <div class="footer-image-links">
+          <img src="./images/s2/footer.png" alt="" />
+          <div class="links">
+            <a href="index.html"></a>
+            <a href="slide2.html"></a>
+            <a href="slide5.html"></a>
+            <a href="slide8.html"></a>
+            <a href="slide11.html"></a>
+            <a href="slide12.html"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script type="application/javascript">
+      $(document).ready(function (e) {
+        $(function () {
+          $("#my-analysis-circle").niceScroll({
+            cursoropacitymin: 1,
+            cursorwidth: "10px",
+            hidecursordelay: 100,
+            preventmultitouchscrolling: false,
+            enableobserver: false,
+          });
+        });
+
+        $("#Main_Container").swipe({
+          swipeLeft: function (event, direction, distance, duration, fingerCount) {
+            window.location = "slide3.html";
+          },
+          swipeRight: function (event, direction, distance, duration, fingerCount) {
+            window.location = "index.html";
+          },
+        });
+      });
+    </script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
