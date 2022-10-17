@@ -219,7 +219,7 @@ body {
   height: 33px !important;
 }
 .my-analysis-circle {
-  /* margin-top: 50px; */
+  margin-top: 50px !important;
 }
 .con-main {
   padding: 10px;
@@ -254,7 +254,7 @@ body {
   height: 200px;
 }
 .text-tow {
-  top: 220px !important;
+  top: 152px !important;
 }
 @media (max-width: 992px) {
   .container-content {
