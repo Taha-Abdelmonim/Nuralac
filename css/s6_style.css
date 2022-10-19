@@ -55,6 +55,14 @@ html {
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .img-text {
+    width: 200px !important;
+    height: 100px !important;
+    top: 453px !important;
+    left: 30.5% !important;
+  }
+}
 @media (min-width: 577px) and (max-width: 992px) {
   body::before {
   }
@@ -182,8 +190,8 @@ body {
   margin-bottom: 10px;
 }
 .new2-text-footer {
-  width: 60%;
-  color: grey;
+  width: 70%;
+  color: #3e3e3e;
   font-size: 11px;
   position: absolute;
   bottom: 97px;
@@ -208,4 +216,11 @@ body {
 /* End Main Slide  */
 body #Main_Container::before {
   background: url(../images/s8/footer.png) no-repeat;
+}
+.img-text {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 320px;
+  left: 66.5%;
 }

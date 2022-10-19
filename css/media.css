@@ -23,7 +23,7 @@
   display: block;
   margin-top: 40px;
   width: 60%;
-  color: grey;
+  color: #3e3e3e;
   margin-left: 20px;
   font-size: 11px;
 }
@@ -53,6 +53,7 @@ body {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  width: 90%;
 }
 
 .text-tow {
@@ -74,13 +75,14 @@ body {
   }
   .new2-text-footer {
     width: 92%;
-    bottom: 200px;
+    bottom: 180px;
   }
   .text-tow {
     height: 40px !important;
   }
   .my-text-global {
     top: 14px !important;
+    line-height: 1.2 !important;
   }
   #ascrail2000-hr,
 #ascrail2000 {
@@ -156,29 +158,29 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 10vh;
     margin-top: 20px;
   }
   body #Main_Container .footer .icon-logo .main-icon {
-    width: 100%;
+    width: 30%;
     height: 100%;
     text-align: center;
   }
   body #Main_Container .footer .icon-logo .main-icon img {
-    width: 65%;
+    width: 100%;
     height: 100%;
   }
   body #Main_Container .footer .icon-logo .logo {
     height: 100px;
-    width: 100%;
-    -webkit-transform: scale(0.4);
-            transform: scale(0.4);
+    width: 20%;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
   }
   body #Main_Container .footer .icon-logo .logo div,
 body #Main_Container .footer .icon-logo .logo img {
@@ -211,7 +213,6 @@ body #Main_Container .footer .icon-logo .logo img {
   }
   body #Main_Container .footer .footer-image-links {
     position: relative;
-    margin-top: 20px;
   }
   body #Main_Container .footer .footer-image-links > img {
     width: 100%;
@@ -289,7 +290,7 @@ body .page1 .main-header-home .logo img {
     right: -16%;
   }
   body .page1 .main-header-home .img-home img {
-    width: 102%;
+    width: 150px;
     height: 95px;
   }
   body .page1 .my-images {
@@ -446,6 +447,7 @@ body .page3 .my-images-page3 div:nth-of-type(3) img {
     position: relative;
     width: 100vw;
     margin-top: 30%;
+    margin-bottom: 30%;
   }
   body .page4 .my-images-page4 img:not(:nth-of-type(1)) {
     position: absolute;
@@ -599,6 +601,7 @@ body .page7 .text-footer {
     place-items: center;
     width: 100%;
     margin-top: 4vh;
+    margin-bottom: 16vh;
   }
   body .page7 .my-images-page7 .group-shape {
     z-index: 1;
@@ -704,7 +707,7 @@ body .page9 .text-footer {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 50px;
-    margin-bottom: 206px;
+    margin-bottom: 227px;
   }
   body .page9 .my-images-page9 > img:nth-of-type(1) {
     width: 98%;
@@ -732,6 +735,7 @@ body .page9 .text-footer {
     grid-template-columns: repeat(1, 1fr);
     place-items: center;
     margin-top: 4vh;
+    margin-bottom: 11vh;
   }
   body .page10 .my-images-page10 #my-img8 {
     display: none;
@@ -794,6 +798,7 @@ body .page11 .text-footer {
         justify-content: space-around;
     height: 50vh;
     margin-top: 2vh;
+    margin-bottom: 20.8vh;
   }
   body .page11 .my-images-page11 img:nth-of-type(1) {
     width: 60%;
@@ -833,6 +838,7 @@ body .page12 .text-footer {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 4vh;
+    margin-bottom: 18.9vh;
   }
   body .page12 .my-images-page12 img:nth-of-type(1) {
     width: 90%;

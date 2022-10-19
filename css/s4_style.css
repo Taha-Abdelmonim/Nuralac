@@ -228,8 +228,10 @@ body #Main_Container::before {
 }
 .con-images .con-div-1 p {
   color: #333686;
-  margin-left: 14px;
+  margin-left: -14px;
   margin-right: auto;
+  width: fit-content;
+  white-space: nowrap;
 }
 .con-images .con-div-1 ul {
   color: #333686;
@@ -242,7 +244,12 @@ body #Main_Container::before {
 .con-images .con-div-1 ul li {
   margin-top: 10px;
 }
+#img5 {
+  margin-left: 28px !important;
+}
 .con-images .con-div-2 {
+  justify-content: space-evenly !important;
+  margin-left: -14px;
 }
 .con-images .con-div-4 p,
 .con-images .con-div-3 p,
@@ -285,11 +292,14 @@ body #Main_Container::before {
     height: 150px;
   }
   .con-images .con-div-1 p {
-    margin-left: -35px;
+    /* margin-left: -35px; */
   }
   .con-images .con-div-4 p,
   .con-images .con-div-3 p,
   .con-images .con-div-2 p {
     text-align: start;
+  }
+  .con-images .con-div-2 p {
+    width: 48%;
   }
 }
