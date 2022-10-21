@@ -256,17 +256,15 @@ body {
 .text-tow {
   top: 244px !important;
 }
-.text-footer {
-  display: block !important;
-  width: 71%;
-  overflow: hidden;
-  font-size: 10px;
-  line-height: 1.3;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 0.6196078431);
-  margin-top: -20px;
-  -webkit-transform: scale(0.94);
-  transform: scale(0.94);
+
+@media (min-width: 992px) {
+  .text-footer {
+    width: 76% !important;
+    font-size: 9px !important;
+    line-height: 1.7 !important;
+    margin-left: 20px !important;
+    margin-top: -20px;
+  }
 }
 @media (max-width: 992px) {
   .text-tow {

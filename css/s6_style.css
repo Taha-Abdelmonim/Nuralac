@@ -181,7 +181,7 @@ body {
 
 #img4 {
   position: absolute;
-  top: 320px;
+  top: 280px;
   left: 57%;
   width: 200px;
   height: 200px;
@@ -196,12 +196,12 @@ body {
   font-size: 11px;
   position: absolute;
   bottom: 97px;
-  left: 24px;
+  left: 10px;
 }
 #mask {
   position: absolute;
   left: 383px;
-  top: 296px;
+  top: 256px;
   height: 265px;
   width: 296px;
   overflow: hidden;
@@ -221,7 +221,19 @@ body #Main_Container::before {
 .img-text {
   width: 300px;
   height: 200px;
+  margin-bottom: 160px;
+  margin-top: 40px;
+  margin-left: 27%;
+}
+.img-text-new {
+  width: 300px;
+  height: 200px;
   position: absolute;
-  top: 320px;
   left: 66.6%;
+  top: 36%;
+}
+@media (min-width: 992px) {
+  #img-text2 {
+    display: none;
+  }
 }
