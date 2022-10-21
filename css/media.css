@@ -57,7 +57,6 @@ body {
       -ms-user-select: none;
           user-select: none;
   width: 90%;
-  left: 20px;
 }
 
 .text-tow {
@@ -70,7 +69,6 @@ body {
   overflow: hidden;
   position: absolute;
   top: 120px;
-  left: 20px;
 }
 
 @media (max-width: 992px) {
@@ -167,6 +165,7 @@ body {
             justify-content: space-between;
     height: 10vh;
     margin-top: 20px;
+    padding-left: 10px;
   }
   body #Main_Container .footer .icon-logo .main-icon {
     width: 30%;
@@ -262,6 +261,7 @@ body #Main_Container .footer .icon-logo .logo img {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 5vh;
+    padding-right: 20px;
   }
   body .page1 .main-header-home .logo {
     height: 100px;
@@ -289,8 +289,8 @@ body .page1 .main-header-home .logo img {
     top: 25px;
   }
   body .page1 .main-header-home .logo img:nth-of-type(3) {
-    top: -84%;
-    right: -16%;
+    margin-top: -75px;
+    margin-left: 121px;
   }
   body .page1 .main-header-home .img-home img {
     width: 150px;
@@ -1195,12 +1195,23 @@ body #Main_Container .text-footer {
   }
 }
 @media (max-width: 992px) {
+  .text-tow,
+.my-text-global {
+    left: 10px;
+  }
   .logo-lg-screen,
 .no-links {
     display: none;
   }
 }
 @media (min-width: 992px) {
+  .icon-logo {
+    padding-left: 20px !important;
+  }
+  .text-tow,
+.my-text-global {
+    left: 20px;
+  }
   .buttons-group,
 .footer,
 .main-header-home,

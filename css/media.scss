@@ -50,7 +50,7 @@ body {
   user-select: none;
   width: 90%;
 
-  left: 20px;
+  // left: 20px;
 }
 .text-tow {
   height: 20px;
@@ -62,7 +62,7 @@ body {
   overflow: hidden;
   position: absolute;
   top: 120px;
-  left: 20px;
+  // left: 20px;
 }
 // .screen {
 //   position: relative;
@@ -187,6 +187,7 @@ body {
           justify-content: space-between;
           height: 10vh;
           margin-top: 20px;
+          padding-left: 10px;
           .main-icon {
             width: 30%;
             height: 100%;
@@ -279,6 +280,8 @@ body {
         justify-content: space-around;
         align-items: center;
         margin-top: 5vh;
+        padding-right: 20px;
+
         .logo {
           height: 100px;
           width: 300px;
@@ -305,8 +308,8 @@ body {
             top: 25px;
           }
           img:nth-of-type(3) {
-            top: -84%;
-            right: -16%;
+            margin-top: -75px;
+            margin-left: 121px;
           }
         }
         .img-home {
@@ -1195,12 +1198,23 @@ body {
 }
 
 @media (max-width: 992px) {
+  .text-tow,
+  .my-text-global {
+    left: 10px;
+  }
   .logo-lg-screen,
   .no-links {
     display: none;
   }
 }
 @media (min-width: 992px) {
+  .icon-logo {
+    padding-left: 20px !important;
+  }
+  .text-tow,
+  .my-text-global {
+    left: 20px;
+  }
   .buttons-group,
   .footer,
   .main-header-home,
