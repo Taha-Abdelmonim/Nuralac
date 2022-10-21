@@ -22,7 +22,9 @@
   margin: 0;
   padding: 0;
 }
-
+.img-home {
+  width: 36%;
+}
 * {
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
   -webkit-touch-callout: none;
