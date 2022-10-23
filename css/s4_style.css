@@ -247,9 +247,9 @@ body #Main_Container::before {
 .con-images .con-div-1 ul li {
   margin-top: 10px;
 }
-#img5 {
-  margin-left: 28px !important;
-}
+
+.con-images .con-div-4,
+.con-images .con-div-3,
 .con-images .con-div-2 {
   justify-content: space-evenly !important;
   margin-left: -14px;
@@ -308,8 +308,11 @@ body #Main_Container::before {
   .con-images .con-div-3 p,
   .con-images .con-div-2 p {
     text-align: start;
+    width: 48% !important;
   }
-  .con-images .con-div-2 p {
-    width: 48%;
+  .con-images .con-div-4 img,
+  .con-images .con-div-3 img,
+  .con-images .con-div-2 img {
+    margin-left: 28px !important;
   }
 }

@@ -11,7 +11,14 @@
   -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
   -webkit-touch-callout: none;
 }
-
+#my-text-footer {
+  width: 76%;
+  font-size: 10px;
+  line-height: 1.7;
+  position: absolute;
+  bottom: 102px;
+  left: 20px;
+}
 html,
 body,
 p,
@@ -79,7 +86,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s3/bg.jpg);
+  background-image: url(../images/s3/bg.png);
   background-repeat: no-repeat;
 }
 
@@ -178,4 +185,10 @@ body {
 /* End Main Slide  */
 body #Main_Container::before {
   background: url(../images/s2/footer.png) no-repeat;
+}
+@media (max-width: 992px) {
+  #my-text-footer {
+    display: none;
+    bottom: 150px !important;
+  }
 }
