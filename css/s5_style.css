@@ -69,11 +69,6 @@ body {
   margin: 0;
 }
 
-@media (min-width: 577px) and (max-width: 992px) {
-  body::before {
-    /* bottom: 4% !important; */
-  }
-}
 #Main_Container {
   width: 1024px;
   height: 768px;
@@ -83,7 +78,7 @@ body {
   top: 0px;
   right: 0px;
   bottom: 0px;
-  background-image: url(../images/s5/bg.jpg);
+  background-image: url(../images/s5/bg.png);
   background-repeat: no-repeat;
 }
 
@@ -197,4 +192,6 @@ body {
 /* End Main Slide  */
 body #Main_Container::before {
   background: url(../images/s5/footer.png) no-repeat;
+}
+@media (min-width: 992px) {
 }

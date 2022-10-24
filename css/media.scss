@@ -5,6 +5,18 @@
   src: url("../Helvetica.ttc");
 }
 
+.new2-text-footer div {
+  margin-bottom: 5px;
+}
+.new2-text-footer {
+  width: 70%;
+  color: #3e3e3e;
+  font-size: 11px;
+  position: absolute;
+  bottom: 103px;
+  left: 20px;
+}
+
 @keyframes op {
   0% {
     opacity: 0;
@@ -588,7 +600,7 @@ body {
         width: 100%;
         margin-top: 4vh;
 
-        margin-bottom: 16vh;
+        margin-bottom: 25vh;
         .group-shape {
           z-index: 1;
           display: flex;
@@ -723,7 +735,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
         place-items: center;
         margin-top: 4vh;
-        margin-bottom: 11vh;
+        margin-bottom: 18.5vh;
         #my-img8 {
           display: none;
         }
